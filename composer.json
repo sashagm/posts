@@ -1,0 +1,27 @@
+{
+    "name": "sashagm/posts",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "sashagm",
+        "email": "example@example.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sashagm\\Posts\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sashagm\\Posts\\Providers\\PostServiceProvider"
+            ]
+        }
+    }
+    
+}
